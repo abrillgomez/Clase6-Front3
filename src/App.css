@@ -1,0 +1,74 @@
+/* Estilização padrão gerado pelo projeto inicial do ViteJS par ao React*/
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  color: aliceblue;
+}
+.distribucion-contenido-card{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+.card-espacio{
+  padding: 1rem;
+  max-height: 30rem;
+  max-width: 20rem;
+  margin: 1rem; 
+  box-shadow: 3px 4px 4px rgba(1, 10, 30, 0.06);
+  align-self: stretch;
+}
+
+p{
+  font-size: 1,5rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+li{
+  list-style-type:none;
+}
